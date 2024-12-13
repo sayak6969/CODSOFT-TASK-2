@@ -1,0 +1,198 @@
+/* Reset and Basic Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  background-color:  #ff6b6b;
+  /* background: linear-gradient(90deg, #ff7f50, #ff6b6b, #f06c91); */
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .menu li {
+  margin: 0 15px;
+}
+
+.navbar .menu a {
+  color: white;
+}
+
+.cta-buttons .btn {
+  padding: 10px 15px;
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cta-buttons .btn.buy-now {
+  background: #ff6b6b;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(90deg, #ff7f50, #ff6b6b, #f06c91);
+  color: white;
+  padding: 100px 15px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background: white;
+  color: #333;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.hero .btn.secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+/* Services Section */
+.services {
+  padding: 50px 0;
+  background: #f4f4f4;
+}
+
+.service {
+  text-align: center;
+  margin: 15px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+/* Services Table */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: white;
+}
+
+.services-table th,
+.services-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.services-table th {
+  background: #ff6b6b;
+  color: white;
+  font-weight: bold;
+}
+
+.services-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.services-table tr:hover {
+  background: #ffe6e6;
+}
+
+.services-table td {
+  font-size: 16px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.about .btn {
+  padding: 10px 20px;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
